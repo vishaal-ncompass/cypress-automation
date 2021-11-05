@@ -1,0 +1,149 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 0,
+    "pending": 2,
+    "failures": 1,
+    "start": "2021-11-05T06:12:35.679Z",
+    "end": "2021-11-05T06:12:54.137Z",
+    "duration": 18458,
+    "testsRegistered": 3,
+    "passPercent": 0,
+    "pendingPercent": 66.66666666666666,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "54220270-4637-4427-b38c-7c685cd4e9c3",
+      "title": "",
+      "fullFile": "cypress/integration/examples/BDD/ecommerce.feature",
+      "file": "cypress/integration/examples/BDD/ecommerce.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b2beae14-24d1-456d-ad62-39ee13968cc0",
+          "title": "End to end Ecommerce validation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Ecommerce products delivery",
+              "fullTitle": "End to end Ecommerce validation Ecommerce products delivery",
+              "timedOut": null,
+              "duration": 171,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// register this scenario with the cucumber data collector\n// but don't run it\n// Tell mocha this is a skipped test so it also shows correctly in Cypress\nconst state = window.testState;\ncy.then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() => state.onFinishScenario(scenario))\n  // eslint-disable-next-line func-names\n  .then(function() {\n    return this.skip();\n  });",
+              "err": {
+                "message": "CypressError: sync skip; aborting execution",
+                "estack": "[object Object]\nFrom Your Spec Code:\n    runTest/<@http://localhost:46659/__cypress/tests?p=cypress/integration/examples/BDD/ecommerce.feature:11874:10\n    setRunnable/runnable.fn@http://localhost:46659/__cypress/runner/cypress_runner.js:170176:47\n    callFn@http://localhost:46659/__cypress/runner/cypress_runner.js:122963:21\n    ../driver/node_modules/mocha/lib/runnable.js/</Runnable.prototype.run@http://localhost:46659/__cypress/runner/cypress_runner.js:122950:13\n    onRunnableRun/<@http://localhost:46659/__cypress/runner/cypress_runner.js:176739:30\n    finallyHandler@http://localhost:46659/__cypress/runner/cypress_runner.js:9766:23\n    tryCatcher@http://localhost:46659/__cypress/runner/cypress_runner.js:13212:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:46659/__cypress/runner/cypress_runner.js:11147:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:46659/__cypress/runner/cypress_runner.js:11204:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:46659/__cypress/runner/cypress_runner.js:11249:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:46659/__cypress/runner/cypress_runner.js:11329:18\n    _drainQueueStep@http://localhost:46659/__cypress/runner/cypress_runner.js:7919:12\n    _drainQueue@http://localhost:46659/__cypress/runner/cypress_runner.js:7912:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:46659/__cypress/runner/cypress_runner.js:7928:16\n    Async/this.drainQueues@http://localhost:46659/__cypress/runner/cypress_runner.js:7798:14\n",
+                "diff": null
+              },
+              "uuid": "23912137-ed5a-4397-ac7a-90c52af85528",
+              "parentUUID": "b2beae14-24d1-456d-ad62-39ee13968cc0",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Filling the form to shop",
+              "fullTitle": "End to end Ecommerce validation Filling the form to shop",
+              "timedOut": null,
+              "duration": 98,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// register this scenario with the cucumber data collector\n// but don't run it\n// Tell mocha this is a skipped test so it also shows correctly in Cypress\nconst state = window.testState;\ncy.then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() => state.onFinishScenario(scenario))\n  // eslint-disable-next-line func-names\n  .then(function() {\n    return this.skip();\n  });",
+              "err": {
+                "message": "CypressError: sync skip; aborting execution",
+                "estack": "[object Object]\nFrom Your Spec Code:\n    runTest/<@http://localhost:46659/__cypress/tests?p=cypress/integration/examples/BDD/ecommerce.feature:11874:10\n    setRunnable/runnable.fn@http://localhost:46659/__cypress/runner/cypress_runner.js:170176:47\n    callFn@http://localhost:46659/__cypress/runner/cypress_runner.js:122963:21\n    ../driver/node_modules/mocha/lib/runnable.js/</Runnable.prototype.run@http://localhost:46659/__cypress/runner/cypress_runner.js:122950:13\n    onRunnableRun/<@http://localhost:46659/__cypress/runner/cypress_runner.js:176739:30\n    finallyHandler@http://localhost:46659/__cypress/runner/cypress_runner.js:9766:23\n    tryCatcher@http://localhost:46659/__cypress/runner/cypress_runner.js:13212:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:46659/__cypress/runner/cypress_runner.js:11147:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:46659/__cypress/runner/cypress_runner.js:11204:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:46659/__cypress/runner/cypress_runner.js:11249:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:46659/__cypress/runner/cypress_runner.js:11329:18\n    _drainQueueStep@http://localhost:46659/__cypress/runner/cypress_runner.js:7919:12\n    _drainQueue@http://localhost:46659/__cypress/runner/cypress_runner.js:7912:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:46659/__cypress/runner/cypress_runner.js:7928:16\n    Async/this.drainQueues@http://localhost:46659/__cypress/runner/cypress_runner.js:7798:14\n",
+                "diff": null
+              },
+              "uuid": "5874b298-a9b9-4718-bb94-8dc5e7e1ae68",
+              "parentUUID": "b2beae14-24d1-456d-ad62-39ee13968cc0",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "testing",
+              "fullTitle": "End to end Ecommerce validation testing",
+              "timedOut": null,
+              "duration": 4125,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: Validate if google",
+                "estack": "Error: Step implementation missing for: Validate if google\nresolveAndRunStepDefinition@https://www.google.com/__cypress/tests?p=cypress/integration/examples/BDD/ecommerce.feature:12488:11\nstepTest/<@https://www.google.com/__cypress/tests?p=cypress/integration/examples/BDD/ecommerce.feature:11827:35\ngetRet@https://www.google.com/__cypress/runner/cypress_runner.js:153140:20\ntryCatcher@https://www.google.com/__cypress/runner/cypress_runner.js:13212:23\n../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@https://www.google.com/__cypress/runner/cypress_runner.js:10486:29\nthenFn@https://www.google.com/__cypress/runner/cypress_runner.js:153158:60\nthen@https://www.google.com/__cypress/runner/cypress_runner.js:153610:21\nwrapByType/<@https://www.google.com/__cypress/runner/cypress_runner.js:169912:23\nrunCommand/<@https://www.google.com/__cypress/runner/cypress_runner.js:168605:17\ntryCatcher@https://www.google.com/__cypress/runner/cypress_runner.js:13212:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@https://www.google.com/__cypress/runner/cypress_runner.js:11147:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://www.google.com/__cypress/runner/cypress_runner.js:11204:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@https://www.google.com/__cypress/runner/cypress_runner.js:11241:10\n_drainQueueStep@https://www.google.com/__cypress/runner/cypress_runner.js:7923:12\n_drainQueue@https://www.google.com/__cypress/runner/cypress_runner.js:7912:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@https://www.google.com/__cypress/runner/cypress_runner.js:7928:16\nAsync/this.drainQueues@https://www.google.com/__cypress/runner/cypress_runner.js:7798:14\n",
+                "diff": null
+              },
+              "uuid": "ba6e8ddc-e30d-499b-8963-62d2c061d547",
+              "parentUUID": "b2beae14-24d1-456d-ad62-39ee13968cc0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "ba6e8ddc-e30d-499b-8963-62d2c061d547"
+          ],
+          "pending": [],
+          "skipped": [
+            "23912137-ed5a-4397-ac7a-90c52af85528",
+            "5874b298-a9b9-4718-bb94-8dc5e7e1ae68"
+          ],
+          "duration": 4394,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "useInlineDiffs": false
+      },
+      "version": "4.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "description": "    application Regression",
+    "keyword": "Feature",
+    "name": "End to end Ecommerce validation",
+    "line": 1,
+    "id": "end-to-end-ecommerce-validation",
+    "tags": [],
+    "uri": "ecommerce.feature",
+    "elements": [
+      {
+        "id": "end-to-end-ecommerce-validation;testing",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "testing",
+        "tags": [
+          {
+            "name": "@Demo",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open the page with url 'www.google.com'",
+            "result": {
+              "status": "passed",
+              "duration": 2181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I fill the search 'dumb stuff'",
+            "result": {
+              "status": "passed",
+              "duration": 1912000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Validate if google",
+            "result": {
+              "status": "undefined",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
